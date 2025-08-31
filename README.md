@@ -1,37 +1,33 @@
-Guess Game 🎯
+# Guess Game 🎯
 
-A fun beginner Python game where the user has to guess a randomly chosen number within a certain range. The program gives hints like "too high" or "too low" until the correct number is guessed.
+A fun beginner Python project where the computer picks a random number, and the user tries to guess it!
 
-Features
+## Features
+- Random number between 1 and 10  
+- User gets multiple chances to guess  
+- Feedback given ("Too high", "Too low")  
+- Correct guess ends the game 🎉  
 
-Random number generation 🎲
+## How to Run
+1. Open your terminal.  
+2. Navigate to the folder:  
+   ```bash
+   cd guess_game
 
-User input for guessing
+3.  python guess_game.py
 
-Hints to guide the player ("Too high" / "Too low")
+       Example
 
-Keeps looping until the correct guess is made
+       I'm thinking of a number between 1 and 10...
+       Take a guess: 5
+       Too low! Try again.
+       Take a guess: 8
+       Correct! 🎉 You guessed the number in 2 tries.
 
-Beginner-friendly Python practice
+           Notes
 
-How to Run
+You can change the number range in the code for more difficulty.
 
-Clone or download this repo
-
-Open a terminal and move into the folder:
-
-cd guess-game
+Great project to practice loops, conditions, and random numbers.
 
 
-Run the program:
-
-python guess_game.py
-
-Example Gameplay
-I'm thinking of a number between 1 and 10...
-Enter your guess: 5
-Too low! Try again.
-Enter your guess: 9
-Too high! Try again.
-Enter your guess: 7
-🎉 Congratulations! You guessed it!
